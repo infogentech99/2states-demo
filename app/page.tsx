@@ -113,7 +113,7 @@ export default function Home() {
           
         </div> */}
 
-        <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-100">
+        <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-0">
           <h2 className="text-white text-sm sm:text-base">
             ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
             ਪੁਰਖੁ ਨਿਰਭਉ <br />
@@ -131,14 +131,14 @@ export default function Home() {
             Smt. Seema Bajaj W/o Late Sh. Rajesh Singh
           </h2>
 
-          <hr className="w-8 border-white my-4" />
+          <hr className="lg:w-24 w-16 border-white my-4" />
 
           <h2 className="text-white font-cormorant text-lg sm:text-2xl">
             Mrs. Vandana & Kishore Singh
           </h2>
         </div>
 
-        <div className="mt-24 text-center">
+        <div className="mt-8 text-center">
           <h2 className="text-white font-cormorant 
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
             INVITE
@@ -197,7 +197,7 @@ export default function Home() {
 
 
         <div className="flex justify-center mt-10 pb-24">
-          <img src="/assets/kripal.png" alt="" className="lg:h-120 lg:w-125 w-60 h-60" />
+          <img src="/assets/kripal.png" alt="" className="lg:h-120 lg:w-120 w-60 h-60 md:w-90 md:h-95" />
         </div>
 
 
