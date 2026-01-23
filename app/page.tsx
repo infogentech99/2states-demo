@@ -9,7 +9,7 @@ export default function Home() {
     {
       title: "Sagan & Cocktail",
       image: "/assets/cocktail.png",
-      date: "Sunday, March 11th 2026",
+      date: "Sunday, March 8th 2026",
       venue: "Taj Exotica Resort, Goa",
       time: "10am Onwards",
       link: "https://google.com",
@@ -18,7 +18,7 @@ export default function Home() {
     {
       title: "Wedding/Anand Karaj",
       image: "/assets/anand.png",
-      date: "Monday, March 12th 2026",
+      date: "Monday, March 9th 2026",
       venue: "Taj Exotica Resort, Goa",
       time: "8pm Onwards",
       link: "https://google.com",
@@ -26,7 +26,7 @@ export default function Home() {
     {
       title: "Reception",
       image: "/assets/reception.png",
-      date: "Monday, March 12th 2026",
+      date: "Wednesday, March 11th 2026",
       venue: "Taj Exotica Resort, Goa",
       time: "8pm Onwards",
       link: "https://google.com",
@@ -75,10 +75,10 @@ export default function Home() {
 
           <h2 className="text-white font-cormorant text-center leading-tight
             text-[60px] sm:text-6xl lg:text-[80px] pb-350">
-            RIA <br />
+            HARGUN <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
             <br />
-            HARGUN
+            RIA
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 pt-150">
@@ -96,13 +96,13 @@ export default function Home() {
 
             <h2 className="text-white text-lg sm:text-2xl font-Cormorant-Upright">
               With the heavenly blessings of <br />
-              Smt. Seema Bajaj W/o Late Sh. Rajesh Singh
+              our late grandparents, Sardarni Parkash Kaur and Sardar Avtar Singh.
             </h2>
 
             <hr className="lg:w-24 w-16 border-white my-4" />
 
             <h2 className="text-white font-cormorant text-lg sm:text-2xl">
-              Mrs. Vandana & Kishore Singh
+              The Kataria Family
             </h2>
           </div>
 
@@ -110,7 +110,7 @@ export default function Home() {
           <div className="mt-8 text-center">
             <h2 className="text-white font-cormorant 
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-              INVITE
+              INVITES
             </h2>
 
             <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
@@ -119,13 +119,24 @@ export default function Home() {
 
             <h2 className="text-white font-cormorant text-center mt-10
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-              RIA <br /> & <br /> HARGUN
+              HARGUN
             </h2>
 
             <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
-              Son of <br /> Mrs. Manisha & Ajay Arora
+              Son of <br /> Amarjeet Singh and Gurmeet Kaur
             </p>
 
+ <h2 className="text-white font-cormorant text-center mt-10
+            text-5xl sm:text-7xl lg:text-[100px] leading-tight">
+             & <br/>
+Ria
+            </h2>
+
+
+ <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
+             D/O <br /> (Insert Names)
+
+            </p>
             <p className="text-white font-cormorant text-lg sm:text-2xl mt-8">
               On the following events
             </p>

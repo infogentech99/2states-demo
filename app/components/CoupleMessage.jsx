@@ -41,9 +41,8 @@ export default function CoupleMessage() {
         <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat bg-[#1BB1BB]">
             <div className="lg:h-465 md:h-290 h-380">
                 <h1 className="lg:text-4xl text-3xl text-center text-white lg:pt-42 pt-12 font-cormorant">A message from the couple</h1>
-                <h2 className="lg:text-2xl text-[16px] text-center text-white lg:pt-6 lg:px-60 px-6 lg:mt-28 mt-12">We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days of our lives. The affection shown to us by so many people since our roka has been incredibly moving, and has touched us both deeply.
-                    We would like to take this opportunity to thank everyone most sincerely for their kindness.
-                    We are looking forward to see you at the wedding.</h2>
+                <h2 className="lg:text-2xl text-[16px] text-center text-white lg:pt-6 lg:px-60 px-6 lg:mt-28 mt-12">From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
+This moment wouldn’t be the same without the people we love most. Thank you for your love, blessings, and for making our journey even more special, we’re so excited to celebrate together!</h2>
                 <div className="mt-32 flex justify-center items-center">
                     <Swiper
                         modules={[Autoplay, Pagination]}
