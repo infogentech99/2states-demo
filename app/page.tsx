@@ -237,7 +237,7 @@ export default function Home() {
             MEET THE
           </h1>
           <h2 className="lg:text-[130px] text-2xl text-center text-[#EAD670] lg:pt-12 font-cormorant-upright leading-12">
-            <span className="text-[#EB3DB9]">Bride</span> <br /> & <br /> <span className="text-[#FF1100]">Groom</span>
+            <span className="text-[#EB3DB9] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#FF1100] font-cormorant-upright ">Groom</span>
           </h2>
         </div>
       </div>
