@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://invitearc-harguntemplate.vercel.app/"),
 
   openGraph: {
-    title: "Hargun Weds Ria - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
+    title: "Hargun & Ria ",
+    description: "Join as they begin their forever.",
     url: "https://invitearc-harguntemplate.vercel.app/",
     siteName: "InviteArc",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Hargun Weds Ria Invitation",
+        alt: "Hargun & Ria ",
       },
     ],
     type: "website",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Hargun Weds Ria - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
+    title: "Hargun & Ria",
+    description: "Join as they begin their forever.",
     images: ["/og.jpg"],
   },
 
