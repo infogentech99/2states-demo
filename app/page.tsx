@@ -62,9 +62,8 @@ export default function Home() {
       link: "https://maps.app.goo.gl/Q1k2XyyxXJ1iA1om8",
 
       title2: "Reception of Baraat",
-      date2: "Monday, March 9th 2026",
       venue2: "CARNIVAL MOTEL AND RESORTS",
-      venue_address2: "Narela Rd, GT Karnal Road, NH 44, Alipur, New Delhi, 110036",
+      venue_address2: " GT Karnal Road, NH 44, Alipur, New Delhi, 110036",
       time2: "8pm Onwards",
       link_barat: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
     },
@@ -283,10 +282,10 @@ export default function Home() {
                   </h2>
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[18px]">{event.date}</span>  <br />
-                    <span className="text-[20px]"> {event.venue}</span> <br />
-                    {event.venue_address} <br />
-                    <span className="text-[16px]">  {event.time} </span>
+                    <span className="text-[22px]">{event.date}</span>  <br />
+                    <span className="text-[24px]"> {event.venue}</span> <br />
+                    <span className="text-[20px]">{event.venue_address}</span> <br />
+                    <span className="text-[22px]">  {event.time} </span>
                   </p>
 
                   <a
@@ -303,10 +302,9 @@ export default function Home() {
                   </h2>
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[18px]">{event.date2}</span>  <br />
-                    <span className="text-[20px]"> {event.venue2}</span> <br />
-                    {event.venue_address2} <br />
-                    <span className="text-[16px]">  {event.time2} </span>
+                    <span className="text-[24px]"> {event.venue2}</span> <br />
+                   <span className="text-[20px]"> {event.venue_address2} </span><br />
+                    <span className="text-[22px]">  {event.time2} </span>
                   </p>
                   {event.link_barat && (
                     <a
