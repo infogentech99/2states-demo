@@ -82,46 +82,43 @@ export default function Home() {
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
 
-  const startMusic = () => {
-    if (!audioRef.current) return;
-    audioRef.current.volume = 0.3;
+  const startMusic = async () => {
+    const audio = audioRef.current;
+    if (!audio || started) return;
 
-    audioRef.current
-      .play()
-      .then(() => {
-        setStarted(true);
-        setPlaying(true);
-      })
-      .catch(() => {});
+    try {
+      audio.volume = 0.3;
+      await audio.play();
+      setStarted(true);
+      setPlaying(true);
+    } catch {}
   };
 
-  const toggleMusic = () => {
-    if (!audioRef.current) return;
+  const toggleMusic = async () => {
+    const audio = audioRef.current;
+    if (!audio) return;
 
     if (playing) {
-      audioRef.current.pause();
+      audio.pause();
       setPlaying(false);
     } else {
-      audioRef.current.play();
-      setPlaying(true);
+      try {
+        await audio.play();
+        setPlaying(true);
+      } catch {}
     }
   };
 
-  // ✅ First interaction auto start
+  // First user interaction (mobile + desktop)
   useEffect(() => {
-    const handleFirstInteraction = () => {
-      if (!started) startMusic();
+    const handler = () => startMusic();
 
-      document.removeEventListener("click", handleFirstInteraction);
-      document.removeEventListener("touchstart", handleFirstInteraction);
-    };
-
-    document.addEventListener("click", handleFirstInteraction);
-    document.addEventListener("touchstart", handleFirstInteraction);
+    window.addEventListener("click", handler);
+    window.addEventListener("touchstart", handler);
 
     return () => {
-      document.removeEventListener("click", handleFirstInteraction);
-      document.removeEventListener("touchstart", handleFirstInteraction);
+      window.removeEventListener("click", handler);
+      window.removeEventListener("touchstart", handler);
     };
   }, [started]);
 
@@ -137,7 +134,7 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song.mp3" loop  preload="auto" />
+      <audio ref={audioRef} src="/assets/background_song.mp3" loop  preload="auto" playsInline/>
 
       
       {/* hero section */}
