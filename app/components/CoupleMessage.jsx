@@ -81,6 +81,7 @@ export default function CoupleMessage() {
                                 href="https://wa.me/919811075858"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                className="lg:text-[26px] text-[18px]"
                             >Amarjeet Singh:</a><br /> <a
                                 href="https://wa.me/919811075858"
                                 target="_blank"
@@ -91,6 +92,7 @@ export default function CoupleMessage() {
                                 href="https://wa.me/9811449797"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                className="lg:text-[26px] text-[18px]"
                             > Kawaljeet Singh:</a>
                             <br /><a
                                 href="https://wa.me/9811449797"
