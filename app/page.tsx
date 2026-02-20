@@ -275,10 +275,8 @@ export default function Home() {
 
 
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
-            text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
-              <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
-            md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
+            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
               RIA
             </h2>
 
@@ -289,8 +287,12 @@ export default function Home() {
             </p>
 
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
-            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
+            
+
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
+            text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
+              <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
+            md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
               HARGUN
             </h2>
 
