@@ -68,7 +68,7 @@ export default function Home() {
       link_barat: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6",
 
       title3: "Vedic Phere",
-      time3: "1:00am Onwards",
+      time3: <div className="mb-36">1:00am Onwards</div>,
     },
     {
       title: "Reception",
@@ -218,7 +218,7 @@ export default function Home() {
 
 
         {/* <FallingLamps /> */}
-        <div className=" pt-24 pb-20 relative z-10">
+        <div className=" pt-24 md:pb-20 relative z-10">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
      text-[70px] sm:text-5xl lg:text-[100px] md:pb-350 pb-0
@@ -358,7 +358,7 @@ export default function Home() {
                    <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold mt-12">
                     {event.title3}
                   </h2>
- <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2 mb-32">
+ <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2">
                     <span className="text-[22px]">  {event.time3} </span>
                   </p>
 
