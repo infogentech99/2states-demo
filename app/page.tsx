@@ -283,8 +283,8 @@ export default function Home() {
 
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (Granddaughter of Shri R.S. Jaiswal)
-              <br /> (D/o Mrs. Roomy Jaiswal and Mr. Ram Jaiswal)
+               (D/o Mrs. Roomy Jaiswal and Mr. Ram Jaiswal)
+              <br /> (Granddaughter of Shri R.S. Jaiswal)
             </p>
 
 
