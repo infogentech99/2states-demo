@@ -225,11 +225,11 @@ export default function Home() {
      text-[70px] sm:text-5xl lg:text-[100px] md:pb-350 pb-0
   flex flex-col items-center gap-y-2">
 
-            <span className="font-parisienne">Ria</span>
+            <span className="font-parisienne">Hritika</span>
 
             <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
 
-            <span className="font-parisienne">Hargun</span>
+            <span className="font-parisienne">Gurpreet</span>
 
           </h2>
 
@@ -253,13 +253,13 @@ export default function Home() {
 
             <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[20px] font-cormorant-upright">
               With the heavenly blessings of
-              <br /> Late Smt. Shail Bala
+              <br /> Late Smt. Kamla Kapoor
             </h2>
 
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Jaiswal Family
+              The Kapoor Family
             </h2>
           </div>
 
@@ -278,13 +278,13 @@ export default function Home() {
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              RIA
+             Hritika
             </h2>
 
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-               (D/o Mrs. Roomy Jaiswal and Mr. Ram Jaiswal)
-              <br /> (Granddaughter of Shri R.S. Jaiswal)
+               (D/o Mrs. Kalpana kapoor and Mr. Raj Kapoor)
+              <br /> (Granddaughter of Shri J.S. Kapoor)
             </p>
 
 
@@ -294,11 +294,11 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              HARGUN
+              Gurpreet
             </h2>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (S/o Sdn. Gurmeet Kaur and Sd. Amarjeet Singh)
+              (S/o Sdn. Rajinder Kaur and Sd. Manjit Singh)
             </p>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
