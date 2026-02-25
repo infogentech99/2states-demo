@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://riaandhargunv3.vercel.app/"),
+  metadataBase: new URL("https://2states-demo.vercel.app/"),
 
   openGraph: {
     title: "Hritika & Gurpreet ",
     description: "Join as they begin their forever. 8, 9 & 11 March 2026",
-    url: "https://riaandhargunv3.vercel.app/",
+    url: "https://2states-demo.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://riaandhargunv3.vercel.app/og.jpg",
+    "og:image:secure_url": "https://2states-demo.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
