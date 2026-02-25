@@ -144,8 +144,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771590153/intermobile_bg_tvgk6w.webp')]
-    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771590156/inter_bg_jkjonx.webp')]
+    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772000667/inter_bg_water_mobile_gxasp1.webp')]
+    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771937159/inter_bg_water_qvbzrs.webp')]
     bg-cover
     bg-no-repeat
     bg-top
@@ -375,7 +375,7 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('/assets/meetthebroom.webp')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771999804/meetthebroom_demo_oq5p2l.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
@@ -389,8 +389,8 @@ export default function Home() {
 
       {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('/assets/meetthebroom_mobile.webp')] bg-cover bg-no-repeat">
-        <div className="h-220">
+      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772001810/b_ignt2w.webp')] bg-cover bg-no-repeat">
+        <div className="h-200">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
@@ -404,18 +404,28 @@ export default function Home() {
       <CoupleMessage />
       <ThingsToKnow />
 
-      <div className="hidden md:block bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772000322/Group_2147225113_jdprxd.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
         </div>
       </div>
 
       {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772001730/bridewithmoon_mobile_demo_k1wzl1.png')] bg-cover bg-no-repeat">
         <div className="h-210">
         </div>
       </div>
       <MarriageCountdown />
+<div className="fixed top-5 left-5 z-50">
+  <a href="https://book.invitearc.com/">
+    <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">    
+      <span className="text-3xl leading-none">←</span>
+      <span className="text-[16px] font-semibold">
+        Exit Preview
+      </span>
 
+    </button>
+  </a>
+</div> 
     </>
   );
 }
